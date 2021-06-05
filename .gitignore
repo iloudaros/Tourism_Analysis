@@ -112,3 +112,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Documentation/Project Files/QR/.DS_Store
+Documentation/Product Files/.DS_Store
+Documentation/.DS_Store
+Documentation/Extras/.DS_Store
+Documentation/Project Files/.DS_Store
+Documentation/Project Files/Images/.DS_Store
+.DS_Store
