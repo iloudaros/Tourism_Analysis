@@ -55,7 +55,7 @@ for i in data2:
 			year = str(2023 - j) #2023-4=2019 και 2023-33=1990, πιάνουμε δηλαδή όλο το range από ημερομηνίες στην πλειάδα. Επίσης μετατρέπουμε το αποτέλεσμα σε string για να το πάρει κατευθείαν το cursor
 			number = str(i[j]) #Mετατρέπουμε το πλήθος σε string για να το πάρει κατευθείαν το cursor
 			if number=='None':number=str(0)
-			print("INSERT INTO Nights_spent VALUES (" + "\"" +i[3] + "\", \"" + i[0] + "\"," + number + "," + year +")" ) #Testing
-			mycursor.execute("INSERT INTO Nights_spent VALUES (" + "\"" +i[3] + "\", \"" + i[0] + "\"," + number + "," + year + ")" )
+			print("INSERT INTO Arrivals VALUES (" + "\"" +i[3] + "\", \"" + i[0] + "\"," + number + "," + year +")" ) #Testing
+			mycursor.execute("INSERT INTO Arrivals VALUES (" + "\"" +i[3] + "\", \"" + i[0] + "\"," + number + "," + year + ")" )
 			mydb.commit()
 
